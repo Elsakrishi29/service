@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	margin:0 auto;
+	width:80%;
+	height:100vh;
+}
+.heading{
+	text-align:center;
+	color:#1b9ae5;
+}
+.para{
+	text-align:center;
+	padding:30px;
+}
+.mainbox{
+	display:flex;
+	flex-wrap:wrap;
+}
+.card{
+	width:33.3%;
+	padding:20px;
+	text-align:center;
+}
+.card h3{
+	text-align:center;
+	padding:5px;
+}
+.card p{
+	text-align:center;
+	padding:5px;
+	color:grey;
+}
+.card a{
+	text-align:center;
+	padding:10px;
+	text-decoration:none;
+	color:#54d3f9;
+	margin:auto;
+}
+.card i{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:grey;
+	color:white;
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	text-align:center;
+	margin:auto;
+}
+
+}
+.card p{
+	color:grey;
+}
